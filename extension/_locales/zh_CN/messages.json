@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "翻译干净粘贴"
+    "message": "PDF 翻译粘贴助手"
   },
   "extDescription": {
     "message": "在谷歌翻译、DeepL 等翻译网站粘贴时，自动把从 PDF 复制来的断行接回完整段落。"
