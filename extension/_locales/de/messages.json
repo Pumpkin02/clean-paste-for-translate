@@ -1,0 +1,51 @@
+{
+  "extName": {
+    "message": "Clean Paste for Translate"
+  },
+  "extDescription": {
+    "message": "Fügt aus PDFs kopierten Text beim Einfügen in Google Übersetzer, DeepL und andere Übersetzer wieder zu vollständigen Absätzen zusammen."
+  },
+  "toastJoined": {
+    "message": "Zeilenumbrüche entfernt: $BEFORE$ Zeilen → $AFTER$ Absätze  (Strg+Z rückgängig, Strg+Umschalt+V unverändert einfügen)",
+    "placeholders": {
+      "before": {
+        "content": "$1"
+      },
+      "after": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastJoinedSingle": {
+    "message": "Zeilenumbrüche entfernt: $BEFORE$ Zeilen → 1 Absatz  (Strg+Z rückgängig, Strg+Umschalt+V unverändert einfügen)",
+    "placeholders": {
+      "before": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupToggleTitle": {
+    "message": "Beim Einfügen auf Übersetzungsseiten automatisch bereinigen"
+  },
+  "popupAutoHint": {
+    "message": "Wenn aktiviert, werden beim Einfügen in Google Übersetzer, DeepL, Baidu, Youdao oder Bing Translator getrennte Zeilen automatisch verbunden. Mit Strg+Umschalt+V wird unverändert eingefügt."
+  },
+  "popupManualTitle": {
+    "message": "Manuell bereinigen (funktioniert überall)"
+  },
+  "popupPlaceholder": {
+    "message": "Aus einem PDF kopierten Text hier einfügen…"
+  },
+  "popupClear": {
+    "message": "Leeren"
+  },
+  "popupCopy": {
+    "message": "Ergebnis kopieren"
+  },
+  "statusJoined": {
+    "message": "Zeilenumbrüche entfernt"
+  },
+  "statusCopied": {
+    "message": "Kopiert ✓"
+  }
+}

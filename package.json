@@ -1,0 +1,14 @@
+{
+  "name": "clean-paste-for-translate",
+  "version": "1.0.0",
+  "description": "Browser extension that rejoins text copied from PDFs into proper paragraphs when pasting into Google Translate, DeepL and other translators.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test",
+    "package": "cd extension && zip -r ../clean-paste-for-translate.zip . -x '.*'"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

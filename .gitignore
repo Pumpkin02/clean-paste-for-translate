@@ -1,0 +1,13 @@
+# Build output
+*.zip
+*.crx
+*.pem
+
+# Dependencies
+node_modules/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

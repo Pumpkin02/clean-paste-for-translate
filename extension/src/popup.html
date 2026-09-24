@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="row">
+      <h1 data-i18n="extName"></h1>
+      <label class="switch" data-i18n-title="popupToggleTitle">
+        <input type="checkbox" id="enabled"><span class="slider"></span>
+      </label>
+    </div>
+    <p class="hint" data-i18n="popupAutoHint"></p>
+    <hr>
+    <div><b data-i18n="popupManualTitle"></b></div>
+    <textarea id="input" data-i18n-placeholder="popupPlaceholder"></textarea>
+    <div class="actions">
+      <span id="status"></span>
+      <button id="clear" data-i18n="popupClear"></button>
+      <button id="copy" class="primary" data-i18n="popupCopy"></button>
+    </div>
+  </div>
+  <script src="clean.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

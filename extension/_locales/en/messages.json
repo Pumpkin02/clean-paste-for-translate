@@ -1,0 +1,51 @@
+{
+  "extName": {
+    "message": "Clean Paste for Translate"
+  },
+  "extDescription": {
+    "message": "Rejoins text copied from PDFs into proper paragraphs when you paste it into Google Translate, DeepL and other translators."
+  },
+  "toastJoined": {
+    "message": "Line breaks joined: $BEFORE$ lines → $AFTER$ paragraphs  (Ctrl+Z to undo, Ctrl+Shift+V to paste as-is)",
+    "placeholders": {
+      "before": {
+        "content": "$1"
+      },
+      "after": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastJoinedSingle": {
+    "message": "Line breaks joined: $BEFORE$ lines → 1 paragraph  (Ctrl+Z to undo, Ctrl+Shift+V to paste as-is)",
+    "placeholders": {
+      "before": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupToggleTitle": {
+    "message": "Clean automatically when pasting on translator sites"
+  },
+  "popupAutoHint": {
+    "message": "When enabled, pasting into Google Translate, DeepL, Baidu, Youdao or Bing Translator joins broken lines automatically. Press Ctrl+Shift+V to paste unchanged."
+  },
+  "popupManualTitle": {
+    "message": "Manual cleanup (works anywhere)"
+  },
+  "popupPlaceholder": {
+    "message": "Paste text copied from a PDF here…"
+  },
+  "popupClear": {
+    "message": "Clear"
+  },
+  "popupCopy": {
+    "message": "Copy result"
+  },
+  "statusJoined": {
+    "message": "Line breaks joined"
+  },
+  "statusCopied": {
+    "message": "Copied ✓"
+  }
+}

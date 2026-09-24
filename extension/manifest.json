@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "Clean Paste",
+  "version": "1.0.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_title": "__MSG_extName__",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://translate.google.com/*",
+        "https://translate.google.cn/*",
+        "https://translate.google.de/*",
+        "https://www.deepl.com/*",
+        "https://fanyi.baidu.com/*",
+        "https://fanyi.youdao.com/*",
+        "https://www.bing.com/translator*"
+      ],
+      "js": ["src/clean.js", "src/content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "extName": {
+    "message": "翻译干净粘贴"
+  },
+  "extDescription": {
+    "message": "在谷歌翻译、DeepL 等翻译网站粘贴时，自动把从 PDF 复制来的断行接回完整段落。"
+  },
+  "toastJoined": {
+    "message": "已合并断行：$BEFORE$ 行 → $AFTER$ 段　（Ctrl+Z 撤销，Ctrl+Shift+V 原样粘贴）",
+    "placeholders": {
+      "before": {
+        "content": "$1"
+      },
+      "after": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastJoinedSingle": {
+    "message": "已合并断行：$BEFORE$ 行 → 1 段　（Ctrl+Z 撤销，Ctrl+Shift+V 原样粘贴）",
+    "placeholders": {
+      "before": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupToggleTitle": {
+    "message": "在翻译网站粘贴时自动处理"
+  },
+  "popupAutoHint": {
+    "message": "开启后，在谷歌翻译、DeepL、百度、有道、必应翻译里粘贴会自动合并断行。按 Ctrl+Shift+V 可原样粘贴。"
+  },
+  "popupManualTitle": {
+    "message": "手动清理（任何地方都能用）"
+  },
+  "popupPlaceholder": {
+    "message": "把 PDF 里复制的文字粘到这里…"
+  },
+  "popupClear": {
+    "message": "清空"
+  },
+  "popupCopy": {
+    "message": "复制结果"
+  },
+  "statusJoined": {
+    "message": "已合并断行"
+  },
+  "statusCopied": {
+    "message": "已复制 ✓"
+  }
+}
