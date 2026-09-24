@@ -1,4 +1,4 @@
-# 翻译干净粘贴（Clean Paste for Translate）
+# PDF 翻译粘贴助手（Clean Paste for Translate）
 
 > 把 PDF 里复制的文字粘贴到谷歌翻译、DeepL 等翻译网站时，自动得到完整段落，而不是一行一行的碎片。
 
